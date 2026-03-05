@@ -1,2 +1,30 @@
-numpy==2.4.2
-opencv-python==4.13.0.92
+# Core Python Utilities
+numpy>=1.26,<2.0
+pandas>=2.0
+scipy>=1.10
+
+# Computer Vision
+opencv-python>=4.8
+ultralytics>=8.1
+
+# Visualization
+matplotlib>=3.8
+
+# Web Backend (Future Dashboard / API)
+fastapi>=0.100
+uvicorn>=0.25
+
+# Machine Learning Utilities
+torch>=2.1
+torchvision>=0.16
+networkx>=3.4
+tqdm>=4.65
+
+# Image Processing
+Pillow>=10.0
+
+# Data / Configuration
+python-dotenv>=1.0
+
+# HTTP / Networking
+requests>=2.31
