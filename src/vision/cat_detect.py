@@ -38,6 +38,7 @@ def main():
                 # only show cats
                 if label == "cat":
 
+
                     x1, y1, x2, y2 = map(int, box.xyxy[0])
 
                     #draw bounding box
